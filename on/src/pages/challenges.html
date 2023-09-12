@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON - Eventos e Desafios</title>
+    <link rel="shortcut icon" type="imagex/png" href="../images/icon.ico">
+    <link rel="stylesheet" href="../styles/challenges.css"/>
+    <link rel="stylesheet" href="../styles/geral.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+</head>
+<body>
+    <!--Spin de carregamento da página-->
+    <div class="spinner-container" id="spinnerContainer">
+        <div class="spinner"></div>
+    </div>
+    <!--NAVBAR-->
+    <nav class="navigation">
+        <ul>
+            <li class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo-on.png"  width="45vw">
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="feed.html">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="txt-link">Feed</span>
+                </a>
+            </li>
+            <li class="item-menu active">
+                <a href="challenges.html">
+                    <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                    <span class="txt-link">Eventos e Desafios</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="missions.html">
+                    <span class="icon"><ion-icon name="trophy"></ion-icon></span>
+                    <span class="txt-link">Sua Jornada</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="charts.html">
+                    <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></ion-icon></span>
+                    <span class="txt-link">Seu Desempenho</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="instituto.html">
+                    <span class="icon"><ion-icon name="earth-outline"></ion-icon></span>
+                    <span class="txt-link">Fundação Schneider</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="profile.html">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <span class="txt-link">Perfil</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><ion-icon name="add-circle"></ion-icon></span>
+                    <span class="txt-link">Adicionar Publicação</span>
+                </a>
+            </li>
+            <li class="item-menu options">
+                <a href="#">
+                    <span class="icon"><ion-icon name="menu"></ion-icon></span>
+                    <span class="txt-link">Mais Opções</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+<!--Conteúdo da página-->
+<div class="page-content">
+        
+        <!-- Cards Eventos -->
+<div class="projetos">
+    <h3 style="text-align: left; margin-left: 80px;">Eventos</h3>
+    <button id="btn-eventos" class="btn1"><</button>
+    <button id="btn-eventos1" class="btn">></button>
+    <div id="eventos" class="row-projeto">
+      <div class="row">
+        <div class="card-container" id="eventos">
+          <!-- ... cartões de eventos ... -->
+              <div class="card-two">Workshop: Tecnologia e Sustentabilidade
+              <p class="data1">18/09/2053 - 19h - Campinas/SP</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+              <div class="card-two">Palestra. fontes renovaveis e energia
+              <p class="data1">09/10/2044</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+               
+              <div class="card-two">Palestra. fontes renovaveis e energia
+              <p class="data1">09/10/2044</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+               
+              <div class="card-two">Palestra. fontes renovaveis e energia
+              <p class="data1">09/10/2044</p>
+              <button class="green-button">Saiba mais</button>
+              </div>  
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+  
+  
+  <!-- Cards Desafios -->
+  <div class="projetos">
+    <h3 style="text-align: left; margin-left: 60px;">Desafios</h3>
+    <button id="btn-desafios" class="btn1"><</button>
+    <button id="btn-desafios1" class="btn">></button>
+    <div id="desafios" class="row-projeto">
+      <div class="row">
+        <div class="card-container" id="desafios">
+          <!-- ... cartões de desafios ... -->
+              <div class="card-two">Workshop tecnologia e sustentabilidade
+              <p class="data1">18/09/2053</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+  
+              <div class="card-two">Palestra. fontes renovaveis e energia
+              <p class="data1">09/10/2044</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+               
+              <div class="card-two">Palestra. fontes renovaveis e energia
+              <p class="data1">09/10/2044</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+               
+              <div class="card-two">Palestra. fontes renovaveis e energia
+              <p class="data1">09/10/2044</p>
+              <button class="green-button">Saiba mais</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../scripts/challenges.js"></script>
+    <script src="../scripts/geral.js"></script>
+</body>
+</html>
